@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A05D64F1D1DB21700829D96 /* grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A05D64E1D1DB21700829D96 /* grid.swift */; };
+		4A05D6511D1DB26600829D96 /* creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A05D6501D1DB26600829D96 /* creatures.swift */; };
 		4AAF5B0E1D1D76C3004D5880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF5B0D1D1D76C3004D5880 /* AppDelegate.swift */; };
 		4AAF5B101D1D76C3004D5880 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF5B0F1D1D76C3004D5880 /* GameScene.sks */; };
 		4AAF5B121D1D76C3004D5880 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF5B111D1D76C3004D5880 /* GameScene.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A05D64E1D1DB21700829D96 /* grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = grid.swift; sourceTree = "<group>"; };
+		4A05D6501D1DB26600829D96 /* creatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = creatures.swift; sourceTree = "<group>"; };
 		4AAF5B0A1D1D76C3004D5880 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAF5B0D1D1D76C3004D5880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AAF5B0F1D1D76C3004D5880 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 			children = (
 				4AAF5B0D1D1D76C3004D5880 /* AppDelegate.swift */,
 				4AAF5B0F1D1D76C3004D5880 /* GameScene.sks */,
+				4A05D64E1D1DB21700829D96 /* grid.swift */,
+				4A05D6501D1DB26600829D96 /* creatures.swift */,
 				4AAF5B111D1D76C3004D5880 /* GameScene.swift */,
 				4AAF5B131D1D76C3004D5880 /* GameViewController.swift */,
 				4AAF5B3F1D1D7773004D5880 /* Utils */,
@@ -321,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A05D6511D1DB26600829D96 /* creatures.swift in Sources */,
 				4AAF5B521D1D7773004D5880 /* CGPoint+Extensions.swift in Sources */,
 				4AAF5B5A1D1D7773004D5880 /* SKTEffects.swift in Sources */,
 				4AAF5B551D1D7773004D5880 /* SKAction+Extensions.swift in Sources */,
@@ -338,6 +345,7 @@
 				4AAF5B591D1D7773004D5880 /* SKTAudio.swift in Sources */,
 				4AAF5B511D1D7773004D5880 /* CGFloat+Extensions.swift in Sources */,
 				4AAF5B4F1D1D7773004D5880 /* MSButtonNode.swift in Sources */,
+				4A05D64F1D1DB21700829D96 /* grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +574,7 @@
 				4AAF5B381D1D76C3004D5880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AAF5B391D1D76C3004D5880 /* Build configuration list for PBXNativeTarget "GameOfLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +583,7 @@
 				4AAF5B3B1D1D76C3004D5880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AAF5B3C1D1D76C3004D5880 /* Build configuration list for PBXNativeTarget "GameOfLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +592,7 @@
 				4AAF5B3E1D1D76C3004D5880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
